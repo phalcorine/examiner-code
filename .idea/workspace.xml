@@ -11,96 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d7c2249-26f3-4178-85c2-06867fe1800e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/examiner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201004153648.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/CoursesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/DepartmentsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/SessionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/AdminUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Course.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Department.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Exam.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/ExamQuestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/StudentExamReport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/AdminUserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CourseRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/DepartmentRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ExamQuestionRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ExamRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/StudentExamReportRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/StudentRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/courses/details.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/courses/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/courses/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/courses/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/departments/addCourse.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/departments/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/departments/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/departments/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/layouts/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/layouts/session.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/partials/footer/footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/partials/header/alerts.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/partials/header/navbar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/partials/header/topbar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/session/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,6 +168,7 @@
       <workItem from="1601900605656" duration="4097000" />
       <workItem from="1601914688887" duration="3315000" />
       <workItem from="1602002850692" duration="6199000" />
+      <workItem from="1602050980942" duration="1264000" />
     </task>
     <servers />
   </component>
