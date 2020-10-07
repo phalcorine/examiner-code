@@ -1,0 +1,39 @@
+{% extends 'admin/layouts/base.html.twig' %}
+
+{% block page_title %}
+    {{ pageTitle }}
+{% endblock %}
+
+{% block body %}
+
+    <div class="col-lg-12 col-12  layout-spacing">
+        <div class="statbox widget box box-shadow">
+            <div class="widget-header">
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                        <h4>{{ pageTitle }}</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="widget-content widget-content-area">
+                <form action="{{ url('app_admin_departments_create') }}" method="post">
+                    <div class="form-group mb-4">
+                        <label for="department-code">Department Code</label>
+                        <input type="text" class="form-control" name="department_code" id="department-code" placeholder="Department Code (e.g D010)">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="department-name">Name of Department</label>
+                        <input type="text" class="form-control" name="department_name" id="department-name" placeholder="Department Name (e.g Computer Science)">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="department-description">Description</label>
+                        <input type="text" class="form-control" name="department_description" id="department-description" placeholder="Some description about the department">
+                    </div>
+                    <input type="submit" name="time" class="btn btn-primary">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

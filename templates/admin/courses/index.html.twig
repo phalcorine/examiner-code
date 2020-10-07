@@ -1,0 +1,53 @@
+{% extends 'admin/layouts/base.html.twig' %}
+
+{% block page_title %}
+    {{ pageTitle }}
+{% endblock %}
+
+{% block body %}
+
+    <div>
+        <a href="{{ path('app_admin_courses_new') }}" class="btn btn-primary mb-2">Add Course</a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered mb-2">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Departments</th>
+                    <th>Action(s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for course in courses %}
+                    <tr>
+                        <td>{{ course.code }}</td>
+                        <td>{{ course.title }}</td>
+                        <td>{{ course.departmentCourses.count }}</td>
+                        <td class="text-center">
+                            <a href="{{ path('app_admin_courses_details', { id: course.id }) }}"
+                                class="btn btn-info">
+                                Details
+                            </a>
+                            <a href="{{ path('app_admin_courses_edit', { id: course.id }) }}"
+                                class="btn btn-primary">
+                                Edit
+                            </a>
+                            <a href="{{ path('app_admin_courses_delete', { id: course.id }) }}"
+                                class="btn btn-danger">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                {% else %}
+                    <div align="center">
+                        {{ 'No courses found...' }}
+                    </div>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
